@@ -1,4 +1,4 @@
 baseURL = 'https://mkloberg.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Mac Kloberg @ GitHub'
 theme = 'tranquilpeak'
