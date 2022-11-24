@@ -1,4 +1,4 @@
-# Run Hugo on and publish gh site
+# Run Hugo on main and publish site to gh branch.
 
 name: CI
 
