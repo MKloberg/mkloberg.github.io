@@ -15,7 +15,7 @@
 baseURL = "https://mkloberg.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "Mac's Blog"
 theme = "tranquilpeak"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
@@ -44,15 +44,15 @@ canonifyurls = true
 # Author
 # ------
 [author]
-  name = "Firstname Lastname"
+  name = "Mac Kloberg"
   bio = "Super bio with markdown support **COOL**"
   job = "Your job title"
-  location = "France"
+  location = "USA"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "thibaud.lepretre@gmail.com"
+  gravatarEmail = "mkloberg@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  #     picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -98,12 +98,13 @@ canonifyurls = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
   url = "https://github.com/kakawait"
-[[menu.links]]
-  weight = 2
-  identifier = "stackoverflow"
-  name = "Stack Overflow"
-  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
-  url = "https://stackoverflow.com/users/636472/kakawait"
+
+#[[menu.links]]
+#  weight = 2
+# identifier = "stackoverflow"
+# name = "Stack Overflow"
+#  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
+#  url = "https://stackoverflow.com/users/636472/kakawait"
 
 [[menu.misc]]
   weight = 1
@@ -381,6 +382,6 @@ canonifyurls = true
   # --------------------
   # Footer configuration
   # --------------------
-  # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
-  #  [params.footer]
-  #    copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
+  # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved & Don't try any of this at home."
+  [params.footer]
+    copyright = "<a href=\"https://mkloberg.github.io/\">(MK) Don't try any of this at home!..</a>"
