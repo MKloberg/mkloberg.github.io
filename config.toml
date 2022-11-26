@@ -16,8 +16,12 @@ baseURL = "https://mkloberg.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Mac's Blog"
+
+# Set the theme
 theme = "tranquilpeak"
-disqusShortname = "hugo-tranquilpeak-theme"
+
+
+disqusShortname = "xyz"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
@@ -45,9 +49,9 @@ canonifyurls = true
 # ------
 [author]
   name = "Mac Kloberg"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
-  location = "USA"
+  bio = ""
+  job = "IT Senior Manager at Liebherr"
+  location = "Virginia, USA"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "mkloberg@gmail.com"
   # Your profile picture
@@ -120,7 +124,7 @@ canonifyurls = true
   # -----------
   # Description
   # -----------
-  description = "Hugo tranquilpeak theme demo"
+  description = "Hugo tranquilpeak theme"
 
   # ------------------
   # Syntax highlighter
@@ -171,7 +175,7 @@ canonifyurls = true
   #    large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 1
+  sidebarBehavior = 3
 
   # Customize link of author avatar in sidebar
   #  [params.sidebar.profile]
@@ -384,4 +388,4 @@ canonifyurls = true
   # --------------------
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved & Don't try any of this at home."
   [params.footer]
-    copyright = "<a href=\"https://mkloberg.github.io/\">(MK) Don't try any of this at home!..</a>"
+    copyright = "<a href=\"https://mkloberg.github.io/\">Mac Kloberg</a>"
